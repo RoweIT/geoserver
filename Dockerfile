@@ -30,8 +30,8 @@ RUN cd $CATALINA_HOME/webapps \
     && unzip -q geoserver-$GEOSERVER_VERSION-war.zip \
     && rm geoserver-$GEOSERVER_VERSION-war.zip \
     && cd .. \
-    && mkdir geoserver \
-    && cd geoserver \
+    && mkdir ROOT \
+    && cd ROOT \
     && unzip -q ../_tmp/geoserver.war \
     && rm -rf data \
     && cd .. \
