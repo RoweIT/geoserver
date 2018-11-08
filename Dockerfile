@@ -3,7 +3,7 @@ FROM 188413075412.dkr.ecr.eu-west-2.amazonaws.com/geo/tomcat85-with-status
 #
 # Set GeoServer version and data directory 
 #
-ENV GEOSERVER_VERSION=2.13.0
+ENV GEOSERVER_VERSION=2.14.0
 ENV GEOSERVER_DATA_DIR="/geoserver_data"
 
 #
