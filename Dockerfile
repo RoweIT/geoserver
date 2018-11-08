@@ -1,4 +1,5 @@
-FROM 188413075412.dkr.ecr.eu-west-2.amazonaws.com/geo/tomcat85-with-status
+ARG AWS_ECR=
+FROM ${AWS_ECR}geo/tomcat85-with-status
 
 #
 # Set GeoServer version and data directory 
