@@ -1,5 +1,5 @@
 ARG AWS_ECR=
-FROM ${AWS_ECR}geo/tomcat85-with-status
+FROM ${AWS_ECR}geo/tomcat85-minimal
 
 #
 # Set GeoServer version and data directory 
