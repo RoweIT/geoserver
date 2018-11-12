@@ -15,10 +15,7 @@ ENV JAVA_OPTS -Xms256m -Xmx512m
 #
 # Additional components needed to install geo server
 #
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends \
-        wget 
-
+RUN apk update && apk add wget && rm -rf /var/cache/apk/*
 #
 # Download and install GeoServer
 # This will unpack the war and remove any sample data
